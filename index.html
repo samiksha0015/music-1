@@ -1,0 +1,110 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png">
+
+  <script src="https://use.typekit.net/hoy3lrg.js"></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://use.fontawesome.com/15af25ac7b.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js"></script>
+
+  <title>Sour - Olivia Rodrigo</title>
+</head>
+
+<body>
+  <a href="https://s0ur.netlify.app/">
+
+  <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+    <div class="bubble x1"></div>
+  </div>
+
+  <div id="wrapper">
+    <div id="iphone">
+      <div id="camera">
+        <span></span>
+        <span></span>
+      </div>
+      <div id="screen">
+        <div id="content-wrap">
+          <div id="background"></div>
+          <div id="content">
+            <div class="jcarousel">
+              <ul id="songs">
+                <li class="song" data-audio="mp3/brutal.mp3" data-color="#eb6e60">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png" alt="">
+                  <p class="song-title">brutal</p>
+                  <p class="song-artist">Olivia Rodrigo</p>
+                </li>
+              </ul>
+            </div>
+            <audio crossorigin>
+              <source src="" type="audio/mpeg">
+            </audio>
+            <div id="controls">
+              <span id="previous-btn"><i class="fa fa-step-backward fa-fw" aria-hidden="true"></i></span>
+              <span id="play-btn"><i class="fa fa-play fa-fw" aria-hidden="true"></i></span>
+              <span id="next-btn"><i class="fa fa-step-forward fa-fw" aria-hidden="true"></i></span>
+            </div>
+            <div id="timeline">
+              <span id="current-time">--:--</span>
+              <span id="total-time">--:--</span>
+              <div class="slider" data-direction="horizontal">
+                <div class="progress">
+                  <div class="pin" id="progress-pin" data-method="rewind"></div>
+                </div>
+              </div>
+            </div>
+            <div id="sub-controls">
+              <i class="fa fa-random" aria-hidden="true"></i>
+              <i class="fa fa-refresh" aria-hidden="true"></i>
+              <i class="fa fa-volume-up" id="volume-btn" aria-hidden="true"></i>
+              <i class="fa fa-heart-o" id="heart-icon" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div id="song-info">
+            <img src="https:/g/upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png" alt="">
+            <div class="artist-wrap">
+              <p>
+                <span class="title">brutal</span>
+                <span class="artist">Olivia Rodrigo</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="home-screen">
+          <div class="home-content">
+            <div class="app-icon">
+              <img class="svg" src="https://cdn.shopify.com/s/files/1/0556/7204/5730/files/site-logo3_180x.png?v=1618510799" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="home-btn"></div>
+    </div>
+  </div>
+  </a>
+</body>
+<script src="script.js"></script>
+
+</html>
